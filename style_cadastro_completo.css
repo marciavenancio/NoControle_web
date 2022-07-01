@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color:  #00B050;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+p {
+    margin-block-start: 20px;
+    color: white;
+    text-align: center;
+}
+
+.form-signin {
+    max-width: 800px;
+    padding: 20px;
+  }
+      
+  .form-floating input[type="text"] {
+    margin-bottom: 20px;
+    background-color: #2E2D2D;
+    color: #00B050;
+    border: 0px;
+    border-radius: 60px;
+  }
+  .form-floating input[type="number"] {
+    margin-bottom: 20px;
+    background-color: #2E2D2D;
+    color: #00B050;
+    border: 0px;
+    border-radius: 60px;
+  }
+  
+  .form-floating input[type="date"] {
+    margin-bottom: 20px;
+    background-color: #2E2D2D;
+    color: #00B050;
+    border: 0px;
+    border-radius: 60px;
+  }
+  
+  label {
+    color: #00B050;
+  }
+ 
+  .checkbox{
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-size: larger;
+  }
+ 
+  .btn {
+    position: relative;
+    width: 20%;
+    text-align: center;
+    padding: 15px 20px;
+    border: 0px;
+    border-radius: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00B050;
+    color:black
+    }
+    .hlink{
+        margin-bottom: 10px;
+        color: white;
+        text-align: center;
+        font-size: larger;
+    }

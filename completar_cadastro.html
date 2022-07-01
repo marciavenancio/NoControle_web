@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoControle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style_cadastro_completo.css" title="Estilos cadastro">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="Logo_NoControle.jpg" alt="Logo NoControle">
+        </div>
+    </header>
+    <section>
+        <p>Complete seu cadastro.</p>
+    </section>
+    <main class="form-signin w-100 m-auto">
+        <form>
+        <div class="form-floating">
+            <input type="text" class="form-control" id="name" placeholder="name" required>
+            <label for="name">Nome Completo</label><br>
+          </div>
+          <div class="form-floating">
+            <input type="number" class="form-control" id="phone" placeholder="phone" required>
+            <label for="phone">Digite seu telefone</label><br>
+          </div>
+          <div class="form-floating">
+            <input type="number" class="form-control" id="cpf" placeholder="cpf" required>
+            <label for="cpf">Digite seu CPF</label><br>
+          </div>
+          <div class="form-floating">
+            <input type="date" class="form-control" id="nascimento" placeholder="nascimento" required>
+            <label for="nascimento">Digite sua data de Nascimento</label><br>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="endereço" placeholder="endereço" required>
+            <label for="endereço">Digite seu Endereço</label><br>
+          </div>
+        </form>
+    </main>
+    <div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" value="Autorization"> Autorizo a NoContole a tratar meus dados pessoais para envio de comunicações e também estou de acordo com a
+            <a href="politica_privacidade.html">Política de Privacidade.</a>    
+        </label>
+    </div>
+    <section>    
+        <div>
+            <a class="btn btn-primary" href="dashboard.html" role="button">Continuar</a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
